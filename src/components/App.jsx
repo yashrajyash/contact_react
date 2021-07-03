@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
+import Avatar from "./Avatar";
 
 function createCard(contact) {
   return (
@@ -17,6 +18,7 @@ function createCard(contact) {
 function App() {
   return (
     <div>
+      <Avatar src="https://avatars.githubusercontent.com/u/66232462?v=4" />
       <h1 className="heading">My Contacts</h1>
       {contacts.map(createCard)}
       />
