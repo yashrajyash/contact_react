@@ -21,7 +21,6 @@ function App() {
       <Avatar src="https://avatars.githubusercontent.com/u/66232462?v=4" />
       <h1 className="heading">My Contacts</h1>
       {contacts.map(createCard)}
-      />
     </div>
   );
 }
